@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agent-input clean='true'>
+<server>
+<repository location='/vagrant/RATL_CLEARCASE_8.0.1_LINUX-X86_ML/disk1'/>
+</server>
+<profile id='IBM Rational SDLC' installLocation='/opt/IBM/RationalSDLC'>
+<data key='eclipseLocation' value='/opt/IBM/RationalSDLC'/>
+<data key='user.import.profile' value='false'/>
+<data key='cic.selector.os' value='linux'/>
+<data key='cic.selector.arch' value='x86'/>
+<data key='cic.selector.ws' value='gtk'/>
+<data key='user.Common_TempDir' value='/tmp'/>
+<data key='user.Common_AdminDir' value='/var/adm/rational'/>
+<data key='user.CC_LICENSE_MANAGER,com.ibm.rational.clearcase.linux_x86' value='ATRIA'/>
+<data key='user.ATRIA_HOST_IS_REMOTE,com.ibm.rational.clearcase.linux_x86' value='true'/>
+<data key='user.ATRIA_LOCAL_KEY,com.ibm.rational.clearcase.linux_x86' value=''/>
+<data key='user.ATRIA_REMOTE_HOSTNAME,com.ibm.rational.clearcase.linux_x86' value='localhost'/>
+<data key='user.CC_MVFSModuleRebuild,com.ibm.rational.clearcase.linux_x86' value='1'/>
+<data key='user.CC_RegSvrHostName,com.ibm.rational.clearcase.linux_x86' value='localhost'/>
+<data key='user.CC_RegUNIXRegionName,com.ibm.rational.clearcase.linux_x86' value='unix'/>
+<data key='user.CC_RegSMTPHostName,com.ibm.rational.clearcase.linux_x86' value='localhost'/>
+<data key='cic.selector.nl' value='en'/>
+</profile>
+<install modify='false'>
+<offering id='com.ibm.rational.clearcase.linux_x86' version='8.0.1000.0000-8-0-1-D130526' profile='IBM Rational SDLC' features='com.ibm.rational.clearcaseunix.core,com.ibm.rational.clearcaseunix.CC_MIN_STD_X,com.ibm.rational.clearcaseunix.CC_FULL,com.ibm.rational.clearcaseunix.CC_ONLY_SERVER_X,com.ibm.rational.clearcaseunix.CC_MFC,com.ibm.rational.cc.cadence.virtuoso.integration,com.ibm.rational.clearcaseunix.MS_FULL,com.ibm.rational.clearcaseunix.MS_ONLY_SHIPPING_SERVER,com.ibm.rational.clearcaseunix.CQ_CC_int' installFixes='none'/>
+</install>
+<preference name='com.ibm.cic.common.core.preferences.eclipseCache' value='/opt/IBM/IMShared'/>
+<preference name='com.ibm.cic.common.core.preferences.connectTimeout' value='30'/>
+<preference name='com.ibm.cic.common.core.preferences.readTimeout' value='45'/>
+<preference name='com.ibm.cic.common.core.preferences.downloadAutoRetryCount' value='0'/>
+<preference name='offering.service.repositories.areUsed' value='false'/>
+<preference name='com.ibm.cic.common.core.preferences.ssl.nonsecureMode' value='false'/>
+<preference name='com.ibm.cic.common.core.preferences.http.disablePreemptiveAuthentication' value='false'/>
+<preference name='http.ntlm.auth.kind' value='NTLM'/>
+<preference name='http.ntlm.auth.enableIntegrated.win32' value='true'/>
+<preference name='com.ibm.cic.common.core.preferences.preserveDownloadedArtifacts' value='true'/>
+<preference name='com.ibm.cic.common.core.preferences.keepFetchedFiles' value='false'/>
+<preference name='PassportAdvantageIsEnabled' value='false'/>
+<preference name='com.ibm.cic.common.core.preferences.searchForUpdates' value='false'/>
+<preference name='com.ibm.cic.agent.ui.displayInternalVersion' value='false'/>
+<preference name='com.ibm.cic.common.sharedUI.showErrorLog' value='true'/>
+<preference name='com.ibm.cic.common.sharedUI.showWarningLog' value='true'/>
+<preference name='com.ibm.cic.common.sharedUI.showNoteLog' value='true'/>
+</agent-input>
